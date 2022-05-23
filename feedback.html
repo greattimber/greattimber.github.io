@@ -11,6 +11,7 @@
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,12 +79,12 @@
 		<input type="hidden" name="admin_email" value="admin@mail.com">
 		<input type="hidden" name="form_subject" value="Form Subject">
 		<!-- END Hidden Required Fields -->
-            <input class="inf_email" type="text" name="Name" placeholder="Name:" required="Name">
-            <input class="inf_email1" type="text" name="Surname" placeholder="E-mail:" required="Surname">
-            <input class="inf_email2" type="text" name="E-mail" placeholder="Phone Number:" required="E-mail">
-            <input class="inf_email3" type="text" name="Phone" placeholder="Subject:" required="Phone">
-            <input class="inf_email4" type="text" name="Phone" placeholder="Message:" required="Phone"><br>
-            <div class="send"><button value="SEND" class="send-content">НАДІСЛАТИ</button></div>
+            <input class="inf_email" type="text" name="Name" placeholder="Name:" required>
+            <input class="inf_email1" type="text" name="Surname" placeholder="E-mail:" required>
+            <input class="inf_email2" type="text" name="E-mail" placeholder="Phone Number:">
+            <input class="inf_email3" type="text" name="Phone" placeholder="Subject:">
+            <input class="inf_email4" type="text" name="Phone" placeholder="Message:" required><br>
+            <!--<div class="send"></div>--><button value="SEND" class="send-content">НАДІСЛАТИ</button>
          </form>
 
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -129,6 +130,26 @@
        else alert("Введіть коректну назву");
     }
  });
+ $(document).ready(function() {
+
+//E-mail Ajax Send
+$("form").submit(function() { //Change
+   var th = $(this);
+   $.ajax({
+      type: "POST",
+      url: "mail.php", //Change
+      data: th.serialize()
+   }).done(function() {
+      alert("Thank you!");
+      setTimeout(function() {
+         // Done Functions
+         th.trigger("reset");
+      }, 1000);
+   });
+   return false;
+});
+
+});
      </script>
      <script src="js/main.js"></script>
    </body>
