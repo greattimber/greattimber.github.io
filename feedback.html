@@ -84,73 +84,12 @@
             <input class="inf_email2" type="text" name="E-mail" placeholder="Phone Number:">
             <input class="inf_email3" type="text" name="Phone" placeholder="Subject:">
             <input class="inf_email4" type="text" name="Phone" placeholder="Message:" required><br>
-            <!--<div class="send"></div>--><button value="SEND" class="send-content">НАДІСЛАТИ</button>
+            <!--<div class="send"></div>--><button>send</button>
          </form>
 
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script>
-         var input = document.getElementById("question");
- input.addEventListener("keyup", function(event){
-    event.preventDefault();
-    if(event.keyCode === 13){
-       if(input.value == "Конструктори")
-          {
-                 window.location.href = "product_constructor.html";
-       }
-       else if(input.value == "Пісочні набори")
-          {
-                 window.location.href = "product_pisok.html";
-       }
-       else if(input.value == "Мильні бульбашки")
-          {
-                 window.location.href = "product_bubles.html";
-       }
-       else if(input.value == "Транспорт")
-          {
-                 window.location.href = "product_transport.html";
-       }
-       else if(input.value == "Кубики")
-          {
-                 window.location.href = "product_cube.html";
-       }
-       else if(input.value == "Мозаїки")
-          {
-                 window.location.href = "product_mozaik.html";
-       }
-       else if(input.value=="Доміно")
-       {
-          window.location.href = "product_domino.html";
- 
-       }
-         else if(input.value=="Ігри")
-       {
-          window.location.href = "product_games.html";
- 
-       }
-       else alert("Введіть коректну назву");
-    }
- });
- $(document).ready(function() {
-
-//E-mail Ajax Send
-$("form").submit(function() { //Change
-   var th = $(this);
-   $.ajax({
-      type: "POST",
-      url: "mail.php", //Change
-      data: th.serialize()
-   }).done(function() {
-      alert("Thank you!");
-      setTimeout(function() {
-         // Done Functions
-         th.trigger("reset");
-      }, 1000);
-   });
-   return false;
-});
-
-});
-     </script>
+      
+     <script src="js/index.js"></script> 
      <script src="js/main.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    </body>
 </html>
