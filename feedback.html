@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/contacts.css">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="js/index.js"></script>
+      <link class="pre_logo" rel="shortcut icon" href="img/blocks_second_color.png" type="image/x-icon">
+      <link rel="preconnect" href="https://fonts.gstatic.com">    
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&amp;family=Roboto+Condensed:wght@700&amp;display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Promtex</title>
+   </head>
+   <body>
+      <header>
+         <section>
+         <span><a href="#contact"><i class="fa fa-comment"></i> 24/7 Підтримка</a></span>
+         <span><a href="emailto:support@websitename.com"><i class="fa fa-envelope"></i>promtex-if@ukr.net</a></span>
+         <span><a href="tel:+380956853048"><i class="fa fa-phone"></i>моб: (095) 685-30-48</a></span>
+         </section>
+         <input placeholder="search" id="question" type="text">
+         <section>
+         <span><a class="none" href="#"><i class="fa fa-user"></i>тел: (0342) 73-45-72</a></span>
+         <span><a class="none" href="products.html"><i class="fa fa-lock"></i> Замовити</a></span>
+         <span class="flags"> UKR<img src="img/ukraine.png" alt="" class="flag">RUS<img src="img/russia.png" alt="" class="flag">ENG<img src="img/united-kingdom.png" alt="" class="flag"></span>
+         </section>
+         </header>
+         
+         <!--NAVIGATION-->
+         <nav>
+         <div class="topnav" id="myTopnav">
+         <a href="index.html" id="logo"><img src="img/plane.jpg" alt=""></a>
+         <a href="index.html" id="active">Головна</a>
+         <a href="about_us.html">Про нас</a>
+         <a href="contacts.html">Контакти та умови співпраці</a>
+         <a href="feedback.html">Зворотній зв'язок</a>
+         <div class="dropdown">
+         <button class="dropbtn"><a href="products.html"> ПЕРЕЛІК ТОВАРІВ</a>
+         
+         
+         </div> 
+         
+         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="NavBar()">&#9776;</a>
+         </div>
+         
+         <div id="navbar">
+         <a href="#home" id="logo2" style="float:left;"><img src="img/logo.png" alt=""></a>
+         <a href="index.html" id="active">Головна</a>
+         <a href="about_us.html">Про нас</a>
+         <a href="contacts.html">Контакти та умови співпраці</a>
+         <a href="feedback.html">Зворотній зв'язок</a>
+         <div class="dropdown">
+             <button class="dropbtn"><a href="products.html"> Перелік товарів</a>
+     
+         
+         </div>
+         </nav>
+         
+         </div>
+                 <div class="feedback">
+                <h3>Ви можете залишити нам своє повідомлення використовуючи дану форму для відправки повідомлень:</h3>
+            </div>
+      <div class="container__contacts">
+      <div class="form_mail">
+         <div class="contacts__logo-h2">
+            <h2 class="logo__form-h2">ВІДПРАВКА ПОВІДОМЛЕНЬ</h2>
+            <img class="logo__img-simple" src="img/cont_two.png" alt="">
+         </div>
+         <div class="contacts__white-line"></div>
+         <form> <!-- id="contact" method="POST" -->
+           		<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="admin@mail.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
+            <input class="inf_email" type="text" name="Name" placeholder="Name:" required="Name">
+            <input class="inf_email1" type="text" name="Surname" placeholder="E-mail:" required="Surname">
+            <input class="inf_email2" type="text" name="E-mail" placeholder="Phone Number:" required="E-mail">
+            <input class="inf_email3" type="text" name="Phone" placeholder="Subject:" required="Phone">
+            <input class="inf_email4" type="text" name="Phone" placeholder="Message:" required="Phone"><br>
+            <div class="send"><button value="SEND" class="send-content">НАДІСЛАТИ</button></div>
+         </form>
+
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+         var input = document.getElementById("question");
+ input.addEventListener("keyup", function(event){
+    event.preventDefault();
+    if(event.keyCode === 13){
+       if(input.value == "Конструктори")
+          {
+                 window.location.href = "product_constructor.html";
+       }
+       else if(input.value == "Пісочні набори")
+          {
+                 window.location.href = "product_pisok.html";
+       }
+       else if(input.value == "Мильні бульбашки")
+          {
+                 window.location.href = "product_bubles.html";
+       }
+       else if(input.value == "Транспорт")
+          {
+                 window.location.href = "product_transport.html";
+       }
+       else if(input.value == "Кубики")
+          {
+                 window.location.href = "product_cube.html";
+       }
+       else if(input.value == "Мозаїки")
+          {
+                 window.location.href = "product_mozaik.html";
+       }
+       else if(input.value=="Доміно")
+       {
+          window.location.href = "product_domino.html";
+ 
+       }
+         else if(input.value=="Ігри")
+       {
+          window.location.href = "product_games.html";
+ 
+       }
+       else alert("Введіть коректну назву");
+    }
+ });
+     </script>
+     <script src="js/main.js"></script>
+   </body>
+</html>

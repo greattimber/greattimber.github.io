@@ -1,0 +1,69 @@
+.about_us__container{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+article{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+.about_us_image{
+    background-image: url(../img/services.jpg);
+    width: 100%;
+    height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 5%;
+}
+.description__about_us{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    line-height: 4vh;
+}
+.blue-line__about_us{
+    display: flex;
+    background-color: var(--primary);
+    width: 4.5vh;
+    height: 0.4vh;
+    align-self: flex-start;
+
+    margin-bottom: 3%;
+}
+.but__description{
+padding: 2%;
+width: 30%;
+background: var(--primary);
+border: none;
+margin-top: 3%;
+border-radius: 5px;
+color: white;
+}
+.image_lenght{
+    margin-left: 5%;
+    margin-right: 0%;
+    background-image: url(../img/services2.jpg);
+}
+.grey{
+    background-color: #f2f2f2;
+    padding: 3%;
+}
+@media screen and (max-width: 640px) {
+    .about_us__container > article{
+        flex-direction: column;
+    }
+    .but__description{
+        width: 100%;
+    }
+    .image_lenght{
+        padding: 0;
+        margin-top: 2%;
+        margin-left: 0%;
+    }
+}
