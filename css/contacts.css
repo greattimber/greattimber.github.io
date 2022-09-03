@@ -3,7 +3,7 @@
     justify-content: space-around;
     width: 100%;
     align-items: center;
-    padding-top: 5%;
+    padding-top: 2%;
 
     flex-direction: column;
     align-items: center;
@@ -66,6 +66,7 @@
     margin-left: 13vh;
     padding-bottom: 2%;
     color: white;
+    
 }
 
 .contacts__green-line-imp {
@@ -92,13 +93,14 @@
 
 .form_mail {
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding-top: 5%;
-    padding-bottom: 5%;
-    background: lightgrey;
+    padding-bottom: 7%;
+    background-image: url(../img/contacts.jpg);
     background-size: cover;
 }
 
@@ -262,7 +264,7 @@ form>* {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 .conditions{
     border:3px var(--primary) solid;
@@ -272,6 +274,14 @@ form>* {
 }
 .cont_h2{
     margin-top: 4%;
+}
+.continue__form_box{
+    width: 100%;
+    height: 20vh;
+}
+.feedback__h3{
+    color: #bb5e5e;
+    font-size: 25px;
 }
 @media screen and (max-width: 640px) {
     .container__contacts{
@@ -285,4 +295,74 @@ form>* {
         align-items: center;
         width: 100%;
     }
+    .content__article{
+        margin-bottom: 5%;
+    }
+    .cont_article{
+        margin-bottom: 5%;
+    }
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+    .feedback__h3{
+        font-size: 22px;
+    }
+    .input{
+        width: 45vw;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 750px) {
+    .feedback__h3{
+        font-size: 16px;
+    }
+    .input{
+width: 42vw;
+    }
+    .inf_email, .inf_email1, .inf_email2, .inf_email3{
+        
+        height: 85%;
+    }
+}
+@media (max-width: 1000px) and (min-width: 900px) {
+    .feedback__h3{
+        font-size: 19px;
+    }
+
+}
+@media (max-width: 750px) and (min-width: 600px) {
+    .feedback__h3{
+        font-size: 13.5px;
+    }
+
+}
+@media (max-width: 900px) and (min-width: 600px) {
+    .send{
+        padding-right: 60%;
+    }
+
+}
+@media (max-width: 1000px) and (min-width: 800px) {
+    .tx_cn{
+        font-size: 16px;
+    }
+    .contacts__not-bold{
+        font-size: 15px;
+    }
+    .conditions > p{
+        font-size: 13.5px;
+    }
+
+}
+@media (max-width: 800px) and (min-width: 600px) {
+    .tx_cn{
+        font-size: 14px;
+    }
+    .contacts__not-bold{
+        font-size: 13px;
+    }
+    .conditions > p{
+        font-size: 12.5px;
+    }
+    
+
 }
