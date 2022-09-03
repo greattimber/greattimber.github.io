@@ -13,7 +13,7 @@ function NavBar() {
     document.getElementById("navbar").style.top = "0";
     document.getElementById("roll_back").style.display = "flex";
     } else {
-    document.getElementById("navbar").style.top = "-120px";
+    document.getElementById("navbar").style.top = "-1000px";
     document.getElementById("roll_back").style.display = "none";
     }
     }
