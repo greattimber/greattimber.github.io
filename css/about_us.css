@@ -143,6 +143,19 @@ color: white;
         
     }
   }
+  @media (max-width: 500px) and (min-width: 460px) {
+    .indent{
+        font-size: 9.5px;
+    }
+
+    .descriprion__name{
+        font-size: 12px;
+    }
+    .description__about_us{
+        line-height: 2vh;
+        
+    }
+  }
   /*
   @media screen and (max-width: 640px) {
     .about_us__container > article{
