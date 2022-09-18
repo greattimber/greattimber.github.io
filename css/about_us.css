@@ -156,6 +156,31 @@ color: white;
         
     }
   }
+  @media screen and (max-width: 460px) {
+    .about_us__container{
+        flex-direction: column;
+    }
+    .head{
+        margin-top: 55px;
+    }
+    #main-header{
+        margin-top: -55px;
+    }
+    .indent{
+        font-size: 14px;
+    }
+
+    .descriprion__name{
+        font-size: 20px;
+    }
+    .description__about_us{
+        line-height: 3vh;
+        
+    }
+    .about_us_image {
+        width: 82vw;
+    }
+  }
   /*
   @media screen and (max-width: 640px) {
     .about_us__container > article{

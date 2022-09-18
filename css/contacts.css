@@ -385,3 +385,29 @@ width: 42vw;
     
 
 }
+@media screen and (max-width: 460px) {
+    .head{
+        margin-top: 55px;
+    }
+    #main-header{
+        margin-top: -55px;
+    }
+    .feedback__h3{
+        font-size: 15px;
+     }
+     form{
+    width: 100%;
+    height: 40vh;
+        display: flex;
+        flex-direction: column;
+     }
+     form input{
+        width: 90%;
+        margin-top: 10px;
+        padding: 15px;
+     }
+     .logo__img-simple {
+        width: 7vw;
+        height: 5vh;
+    }
+  }
