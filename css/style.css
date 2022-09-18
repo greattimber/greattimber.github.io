@@ -161,7 +161,7 @@ p{
     white-space:nowrap;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+
     }
     
     header section span:not(:last-child){
