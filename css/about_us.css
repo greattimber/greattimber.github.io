@@ -69,7 +69,13 @@ color: white;
     text-indent: 5ch;
     text-align: justify;
 }
-
+.none_dekstop{
+    display: none;
+}
+.image_block1__about{
+    display: flex;
+    width: 100%;
+}
 @media (max-width: 1300px) and (min-width: 1100px) {
     .indent{
         font-size: 20px;

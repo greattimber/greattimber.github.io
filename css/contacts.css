@@ -407,7 +407,7 @@ width: 42vw;
         padding: 15px;
      }
      .logo__img-simple {
-        width: 7vw;
+        margin-right: 7%;
         height: 5vh;
     }
   }

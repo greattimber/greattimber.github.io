@@ -154,7 +154,7 @@ margin-bottom: 2%;
 
 .wrapper{
 width: 50%;
-
+padding-right: 5%;
 justify-content: space-between;
 align-items: center;
 display: flex;
@@ -236,6 +236,19 @@ padding-top: 1%;
 .products_none{
   display: none;
 }
+@media (max-width: 1000px) and (min-width: 800px) {
+  .tx_cn{
+      font-size: 14px;
+  }
+  .contacts__not-bold{
+      font-size: 13px;
+  }
+  .conditions > p{
+      font-size: 12.5px;
+  }
+  
+
+}
 @media screen and (max-width: 640px) {
 .products__block{
     flex-direction: column;
@@ -260,6 +273,13 @@ flex-direction: column;
 }
 .button{
 width: 100%;
+}
+.wrapper{
+  width: 90%;
+  padding-right: 0%;
+  }
+  .list_products {
+    width: 80%;
 }
 }
 @media screen and (max-width: 460px) {
