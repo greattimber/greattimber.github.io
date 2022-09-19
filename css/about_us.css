@@ -63,7 +63,7 @@ color: white;
 }
 .about_us_image{
     width: 40vw;
-
+    max-width: 40vw;
 }
 .indent{
     text-indent: 5ch;
