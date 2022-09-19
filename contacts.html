@@ -18,58 +18,91 @@
       <title>Promtex</title>
    </head>
    <body>
-      <header>
-         <section>
-         <span><a class="none_laptop" href="#contact"><i class="fa fa-comment"></i> Підтримка</a></span>
-         <span><a href="emailto:support@websitename.com"><i class="fa fa-envelope"></i>promtex.toys@gmail.com</a></span>
-         <span><a href="tel:+380956853048"><i class="fa fa-phone"></i>моб: +380 (95) 685-30-48</a> <img class="logo_phone" src="img/vodafone-logo.png" alt=""></span>
-         </section>
-         <input class="search" placeholder="search" id="question" type="text">
-         <section>
-         <span><a href="tel:+380968883062"><i class="fa fa-user"></i>тел: +380 (96) 888-30-62</a> <img class="logo_phone" src="img/kyivstar-logo.png" alt=""></span>
-         <span><a class="none none_laptop" href="products.html"><i class="fa fa-lock"></i> Замовити</a></span>
-         <span class="flags"> UKR<img src="img/ukraine.png" alt="" class="flag">ENG<img src="img/united-kingdom.png" alt="" class="flag"></span>
-         </section>
-         </header>
-         
-         <!--NAVIGATION-->
-         <nav>
-         <div class="topnav" id="myTopnav">
-         <img id="logo" src="img/plane.jpg" alt="">
-         <a href="index.html">Головна</a>
-         <a class="nav_border_a" href="">|</a>
-         <a href="about_us.html">Про нас</a>
-         <a class="nav_border_a" href="">|</a>
-         <div class="dropdown">
-             <button class="dropbtn"><a href="products.html"> ПЕРЕЛІК ТОВАРІВ</a>
-             </div> 
-             <a class="nav_border_a" href="">|</a>
-         <a href="feedback.html">Зворотній зв'язок</a>
-         <a class="nav_border_a" href="">|</a>
-         <a href="contacts.html">Контакти та умови<br> співпраці</a>
-         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="NavBar()">&#9776;</a>
+      <header id="main-header">
+         <div class="container">
+               
+            <h1 id="logo"><a href="index.html" class="cont_text_header2"><img class="logo_mobile_plane" src="img/plane.jpg" alt="">МЕНЮ</a></h1>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle"><!-- Using the different states of the checkbox as an activator for the mobile menu - checked and not checked -->
+            <nav id="menu">
+               <ul>
+                  <li><a href="index.html">Головна</a></li>
+                  <li><a href="about_us.html">Про нас</a></li>
+             <li><a href="products.html">ПЕРЕЛІК ТОВАРІВ</a></li>
+             <li><a href="feedback.html">Зворотній зв'язок</a></li>
+                  <li><a href="contacts.html">Контакти та умови<br> співпраці</a></li>
+                       <img class="logo_mobile_plane_transparent" src="img/plane_transparent.png" alt="">
+               </ul>
+            </nav>
+            <label for="nav-toggle" class="nav-toggle-label">
+               <span></span>
+            </label>
          </div>
-         
-         <div id="navbar">
-         <img id="logo2" src="img/logo.png" alt="">
-         
-         <a href="index.html" id="active">Головна</a>
-         <a class="nav_border_a" href="">|</a>
-         <a href="about_us.html">Про нас</a>
-         <a class="nav_border_a" href="">|</a>
-         <div class="dropdown">
-             <button class="dropbtn"><a href="products.html"> Перелік товарів</a>
-     
-         
-         </div>
-         
-         <a class="nav_border_a" href="">|</a>
-         <a href="feedback.html">Зворотній зв'язок</a>
-         <a class="nav_border_a" href="">|</a>
-         <a href="contacts.html">Контакти та умови співпраці</a>
-         </nav>
-         
-         </div>
+      </header>
+   <header class="head">
+       <section class="none">
+       <span class="none"><a href="#contact"><i class="fa fa-comment"></i> Підтримка</a></span>
+       <span><a href="emailto:support@websitename.com"><i class="fa fa-envelope"></i>promtex.toys@gmail.com</a></span>
+       <span><a href="tel:+380956853048"><i class="fa fa-phone"></i>моб: +380 (95) 685-30-48</a> <img class="logo_phone" src="img/vodafone-logo.png" alt=""></span>
+       </section>
+       <input class="search" placeholder="search" id="question" type="text">
+       <section class="none">
+       <span><a href="tel:+380968883062"><i class="fa fa-user"></i>тел: +380 (96) 888-30-62</a> <img class="logo_phone" src="img/kyivstar-logo.png" alt=""></span>
+       <span><a class="none" href="products.html"><i class="fa fa-lock"></i> Замовити</a></span>
+       <span class="flags"> UKR<img src="img/ukraine.png" alt="" class="flag">ENG<img src="img/united-kingdom.png" alt="" class="flag"></span>
+       </section>
+       <section class="section_mobile_1">
+           <input class="search none_dekstop" placeholder="search" id="question" type="text">
+          <div class="numbers">
+           <span><a href="tel:+380956853048"><i class="fa fa-phone"></i>моб: +380 (95) 685-30-48</a> <img class="logo_phone" src="img/vodafone-logo.png" alt=""></span>
+           <span><a href="tel:+380968883062"><i class="fa fa-user"></i>тел: +380 (96) 888-30-62</a> <img class="logo_phone" src="img/kyivstar-logo.png" alt=""></span>
+       </div>    
+       </section>
+           
+           <section class="section_mobile_2">
+          
+          
+           <span class="flags"> UKR<img src="img/ukraine.png" alt="" class="flag">ENG<img src="img/united-kingdom.png" alt="" class="flag"></span>
+           </section>
+       </header>
+       
+       <!--NAVIGATION-->
+       <nav>
+       <div class="topnav" id="myTopnav">
+       <img id="logo" src="img/plane.jpg" alt="">
+       <a href="index.html">Головна</a>
+       <a class="nav_border_a" href="">|</a>
+       <a href="about_us.html">Про нас</a>
+       <a class="nav_border_a" href="">|</a>
+       <div class="dropdown">
+           <button class="dropbtn"><a href="products.html"> ПЕРЕЛІК ТОВАРІВ</a>
+           </div> 
+           <a class="nav_border_a" href="">|</a>
+       <a href="feedback.html">Зворотній зв'язок</a>
+       <a class="nav_border_a" href="">|</a>
+       <a href="contacts.html">Контакти та умови<br> співпраці</a>
+       <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="NavBar()">&#9776;</a>
+       </div>
+       
+       <div id="navbar">
+       <img id="logo2" src="img/logo.png" alt="">
+       
+       <a href="index.html" id="active">Головна</a>
+       <a class="nav_border_a" href="">|</a>
+       <a href="about_us.html">Про нас</a>
+       <a class="nav_border_a" href="">|</a>
+       <div class="dropdown">
+           <button class="dropbtn"><a href="products.html"> Перелік товарів</a>
+   
+       
+       </div>
+       
+       <a class="nav_border_a" href="">|</a>
+       <a href="feedback.html">Зворотній зв'язок</a>
+       <a class="nav_border_a" href="">|</a>
+       <a href="contacts.html">Контакти та умови співпраці</a>
+       </nav>
+       
+       </div>
      
       <div class="container__contacts">
       
@@ -141,7 +174,7 @@
                     </a>
                 </section>
             </div>
-            <button></button>
+            <button class="none"></button>
             <div class="nav__footer">
             <h3 class="h3__footer none wow fadeInDown">ПУНКТИ МЕНЮ</h3>
             <a class="none" href="index.html">Головна</a>
