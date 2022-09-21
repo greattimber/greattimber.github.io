@@ -236,6 +236,11 @@ padding-top: 1%;
 .products_none{
   display: none;
 }
+/* optional */
+
+.uk-slideshow [class*=uk-position-bottom] {
+    position: relative!important;
+}
 @media (max-width: 1000px) and (min-width: 800px) {
   .tx_cn{
       font-size: 14px;

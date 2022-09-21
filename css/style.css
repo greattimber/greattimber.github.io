@@ -2193,7 +2193,7 @@ font-size: 45%;
         margin-top: 3%;
     }
     .head{
-        margin-top: 45px;
+        margin-top: 50px;
     }
     #main-header {
         display: -webkit-box;
@@ -2202,7 +2202,7 @@ font-size: 45%;
         background: var(--black);
         
         position: fixed; /* sticks to the top of the page, regardless of where you scroll */
-        margin-bottom: 50px;
+        margin-bottom: 60px;
         width: 100%;
         z-index: 999; /* puts itself on top of all other elements on the page */
         padding: 5px 0;
@@ -2389,8 +2389,13 @@ padding-top: 24%;
 .topnav a{
 font-size: 9.5px;
 }
-
-
+.article__container_fifth{
+    width: 70%;
+    margin-top: 30px;
+}
+.article__container_one, .article__container_fourth, .article__container_three {
+width: 100%;
+}
 .topnav{
     padding-top: 0;
     padding-bottom: 0%;
@@ -2457,16 +2462,12 @@ font-size: 55%;
 .a__pluses, .a__services{
     font-size: 13px;
 }
-.a__pluses{
-    display: none;
-}
+
 #logo2{
     width: 80px;
     padding-left: 10px;
 }
-.article__container_one{
-    width: 70%;
-}
+
 header section span:not(:last-child){
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2554,62 +2555,12 @@ header section span{
  .mobile_none{
     display: none;
  }
-
+ .none_dekstop{
+    display: flex;
+ }
 }
 @media (max-width: 300px) {
-    
-    .head{
-        margin-top: 45px;
-    }
-    #main-header {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        background: #333;
-        text-align: center;
-        position: fixed; /* sticks to the top of the page, regardless of where you scroll */
-        margin-bottom: 42px;
-        width: 100%;
-        z-index: 999; /* puts itself on top of all other elements on the page */
-        padding: 5px 0;
-    }
-    
-    /* LOGO - the h1 */
-    
-    .cont_text_header2{
-        font-size: 20px;
-    }
-  
-    .paralax,
-    .overlay {
-padding-bottom: 1%;
-padding-top: 24%;
-    }
-    .main_logo_parallax{
-        width: 40%;
-        padding-top: 3%;
-        padding-bottom: 1%;
-    }
 
-    header section{
-        font-size: 6px;
-        padding: 0.1rem 0rem;
-    }
-    .search{
-        width: 20vw;
-    }
-.topnav a{
-font-size: 9.5px;
-}
-
-
-.topnav{
-    padding-top: 0;
-    padding-bottom: 0%;
-}
-input{
-    margin: 0;
-}
 
 .parallax__first-blur p {
 margin-bottom: 4%;

@@ -170,7 +170,7 @@ color: white;
         margin-top: 55px;
     }
     #main-header{
-        margin-top: -55px;
+        margin-top: -60px;
     }
     .indent{
         font-size: 14px;
@@ -185,6 +185,17 @@ color: white;
     }
     .about_us_image {
         width: 82vw;
+    }
+    .none_mobile{
+        display: none;
+    }
+    .none_dekstop{
+        display: flex;
+    }
+
+    .image_block1__about{
+        display: flex;
+        width: 100%;
     }
   }
   /*
