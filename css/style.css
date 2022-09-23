@@ -2594,7 +2594,7 @@ header section span{
     flex-direction: column;
 }
 .ukr_lang, .eng_lang{
-    display: flex;
+    display: -webkit-inline-box;
 }
 }
 @media (max-width: 460px) and (min-width: 410px) {
