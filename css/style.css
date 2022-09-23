@@ -850,7 +850,7 @@ padding-top: 22.7%;
     #main-header{
         display: none;
     }
-    .section_mobile_1, .section_mobile_2{
+    .section_mobile_1, .section_mobile_2, .section_mobile_3{
         display: none;
     }
     .none_dekstop{
@@ -2044,11 +2044,22 @@ font-size: 45%;
 }
 
 @media screen and (max-width: 460px) {
+    .menu_content_article{
+        display: flex;
+        align-self: center;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo_plane_article{
+        display: flex;
+    }
     #logo{
     float:left;
     width:90%;
     }
     #logo img{
+    margin-left: 10px;
     width:80px;
     float:left;
     }
@@ -2092,6 +2103,11 @@ font-size: 45%;
         display: -ms-flexbox;
         display: flex;
     }
+    .section_mobile_3{
+        display: flex;
+        flex-direction: column;
+    }
+
     .numbers{
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2199,7 +2215,7 @@ font-size: 45%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        background: var(--black);
+        background: #69d2ff;
         
         position: fixed; /* sticks to the top of the page, regardless of where you scroll */
         margin-bottom: 60px;
@@ -2223,7 +2239,7 @@ font-size: 45%;
     #logo a{
         text-decoration: none;
         color: #fff;
-        padding-left: 20%;
+        padding-left: 8%;
     }
     
     #logo a:hover {
@@ -2493,7 +2509,7 @@ header section span{
     width: 100%;
  }
  .logo_mobile_plane{
-    width: 30% !important;
+    width: 40% !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2502,12 +2518,17 @@ header section span{
         -ms-grid-row-align: center;
         align-self: center;
  }
+ .article__container_three > img {
+
+    margin-top: 40%;
+}
  .parallax__first-blur_mobile{
     z-index: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 80%;
+    position: absolute;
     padding-left: 2%;
     padding-right: 2%;
     background-size: cover;
@@ -2558,77 +2579,54 @@ header section span{
  .none_dekstop{
     display: flex;
  }
+ .parallax {
+    background-image: url(../img/baner_plane_mobile.jpg);
+    padding-top: 122.5%;
+    
 }
-@media (max-width: 300px) {
-
-
-.parallax__first-blur p {
-margin-bottom: 4%;
-font-size: 10px;
+.menu_hr{
+    width: 100%;
+    height: 1px;
+    background: white;
 }
-.h1_main, .h3_main{
-text-align: justify;
+.flags{
+    display: flex;
+    flex-direction: column;
 }
-.parallax__first-blur h1 {
-
-margin-bottom: 4%;
-font-size: 45px;
+.ukr_lang, .eng_lang{
+    display: flex;
 }
-
-.parallax__first-blur h3 {
-margin-bottom: 1%;
-font-size: 8px;
-font-family: 'Roboto Condensed', sans-serif;
 }
-
-.parallax__first-blur p {
-margin-bottom: 2%;
-font-size: 20px;
+@media (max-width: 460px) and (min-width: 410px) {
+    .menu_hr{
+        height: 15px;
+    }
+    #main-header{
+        padding-top: 3%;
+    }
+    .logo_mobile_plane {
+        margin-top: 5px;
+    }
 }
-.scroll_img{
-width: 6%;
+@media (max-width: 410px) and (min-width: 360px) {
+    .menu_hr{
+        height: 5px;
+    }
+    #main-header{
+        padding-top: 0%;
+        margin-bottom: 55px;
+    }
+    .logo_mobile_plane {
+        margin-top: 10px;
+    }
 }
-#navbar a{
-font-size: 55%;
+@media (max-width: 430px) and (min-width: 410px) {
+    .menu_hr{
+        height: 10px;
+    }
 }
-
-.h1__services {
-    margin-bottom: 7%;
-    font-size: 15pt;
-}
-.h1__pluses {
-    margin-bottom: 7%;
-    font-size: 12pt;
-}
-.h1__square_2{
-    font-size: 20px;
-}
-.h1__square{
-    font-size: 25px;
-}
-.h3__square{
-    font-size: 15px;
-}
-.p__pluses {
-    font-size: 11pt;
-    line-height: 100%;
-}
-.p__services {
-    font-size: 12pt;
-    line-height: 100%;
-}
-.a__pluses, .a__services{
-    font-size: 10px;
-}
-#logo2{
-    width: 80px;
-    padding-left: 10px;
-}
-.article__container_one{
-    width: 70%;
-}
-.contacts__footer, .nav__footer{
-    font-size: 13px;
-}
-
+@media (max-width: 390px) and (min-width: 360px) {
+    .menu_hr{
+        height: 2px;
+    }
 }
