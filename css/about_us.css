@@ -198,6 +198,45 @@ color: white;
         width: 100%;
     }
   }
+  @media (max-width: 410px) and (min-width: 360px) {
+    .indent{
+        font-size: 14px;
+    }
+
+    .descriprion__name{
+        font-size: 12px;
+    }
+    .description__about_us{
+        line-height: 2vh;
+        
+    }
+  }
+  @media (max-width: 310px) and (min-width: 260px) {
+    .indent{
+        font-size: 9.5px;
+    }
+
+    .descriprion__name{
+        font-size: 12px;
+    }
+    .description__about_us{
+        line-height: 2vh;
+        
+    }
+  }
+  @media (max-width: 360px) and (min-width: 310px) {
+    .indent{
+        font-size: 12px;
+    }
+
+    .descriprion__name{
+        font-size: 12px;
+    }
+    .description__about_us{
+        line-height: 2vh;
+        
+    }
+  }
   /*
   @media screen and (max-width: 640px) {
     .about_us__container > article{
