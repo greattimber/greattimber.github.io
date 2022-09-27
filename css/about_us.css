@@ -257,3 +257,10 @@ color: white;
     }
 }
 */
+@media (max-width: 310px) and (min-width: 260px) {
+
+    #main-header{
+        
+        margin-top: -58px;
+    }
+}

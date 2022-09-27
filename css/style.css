@@ -2418,6 +2418,13 @@ font-size: 45%;
 padding-bottom: 1%;
 padding-top: 24%;
     }
+    .none_parallax{
+        box-shadow: 1px 1px 10px 1px grey;
+    }
+    .overlay
+    {
+        box-shadow: none;
+    }
     .main_logo_parallax{
         width: 40%;
         padding-top: 3%;
@@ -2667,6 +2674,7 @@ header section span{
             padding-top: 96%;
             
         }
+    
 }
 @media (max-width: 410px) and (min-width: 360px) {
     .menu_hr{
@@ -2680,9 +2688,12 @@ header section span{
         margin-top: 10px;
     }
     .parallax {
-        padding-top: 95%;
+        padding-top: 98%;
         
     }
+    .parallax__first-blur{
+        width: 60%;
+        }
 }
 @media (max-width: 360px) and (min-width: 310px) {
     .menu_hr{
@@ -2696,13 +2707,24 @@ header section span{
         margin-top: 10px;
     }
     .parallax {
-        padding-top: 83%;
+        padding-top: 98%;
         
     }
     header section {
         font-size: 7.5px;
         
     }
+    .parallax__first-blur{
+        width: 50%;
+        
+        }
+        .parallax__first-blur h3 {
+            font-size: 8px;   
+        }
+        .main_logo_parallax {
+            width: 30%;
+            
+        }
 }
 @media (max-width: 310px) and (min-width: 260px) {
     .menu_hr{
@@ -2712,24 +2734,32 @@ header section span{
         padding-top: 0%;
         margin-bottom: 50px;
     }
-
+    .parallax__first-blur{
+        width:50%;
+        
+        }
+        .parallax__first-blur h3 {
+            font-size: 7px;   
+        }
+        .main_logo_parallax {
+            width: 25%;
+            
+        }
     .parallax {
-        padding-top: 85%;
+        padding-top: 97%;
         
     }
     header section {
         font-size: 6px;
         
     }
-    .parallax__first-blur {
-        width: 60%;
-    }
+  
 }
 @media (max-width: 360px) and (min-width: 330px) {
 
     .parallax {
         background-image: url(../img/baner_plane_mobile.jpg);
-        padding-top: 89%;
+        padding-top: 99%;
         
     }
 }
@@ -2737,7 +2767,7 @@ header section span{
 
     .parallax {
         background-image: url(../img/baner_plane_mobile.jpg);
-        padding-top: 82%;
+        padding-top: 96%;
         
     }
 }
@@ -2745,7 +2775,7 @@ header section span{
 
     .parallax {
         background-image: url(../img/baner_plane_mobile.jpg);
-        padding-top: 80%;
+        padding-top: 95%;
         
     }
     #main-header{
@@ -2758,13 +2788,18 @@ header section span{
     .nav-toggle-label {
         margin-top: 2.5px;
     }
-
+    .nav-toggle-label span::after {
+        top: 6px;
+    }
+    .nav-toggle-label span::before {
+        bottom: 6px;
+    }
 }
 @media (max-width: 280px) and (min-width: 260px) {
 
     .parallax {
         background-image: url(../img/baner_plane_mobile.jpg);
-        padding-top: 75%;
+        padding-top: 94%;
         
     }.section_mobile_1, .section_mobile_2, .section_mobile_3 {
         margin-left: 0px;
@@ -2775,7 +2810,7 @@ header section span{
         height: 10px;
     }
     .parallax {
-        padding-top: 92%;
+        padding-top: 95%;
         
     }
 }
@@ -2786,7 +2821,7 @@ header section span{
     }
     .parallax {
         background-image: url(../img/baner_plane_mobile.jpg);
-        padding-top: 95%;
+        padding-top: 94%;
         
     }
 }
