@@ -421,6 +421,25 @@ width: 42vw;
         margin-left: 2vh;
 
     }
+    .logo__cont-h2{
+        font-size: 20px;
+        margin-left: 3vw;
+    }
+    .contacts__green-line-imp {
+        margin-left: 1.5vh;
+
+    }
+    .logo__img-simple {
+        margin-right: 7%;
+        height: 3vh;
+        width: 5vw;
+    }
+    .tx_cn{
+        font-size: 15px;
+    }
+    .contacts__not-bold{
+        font-size: 15px;
+    }
   }
   @media (max-width: 430px) and (min-width: 360px) {
 

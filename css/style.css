@@ -718,7 +718,10 @@ padding-top: 22.7%;
         padding-bottom: 2%;
 
     }
-
+    .nav__border{
+        border-left: 4px solid white;
+        border-right: 4px solid white;
+    }
     .contacts__footer{
         display: -webkit-box;
         display: -ms-flexbox;

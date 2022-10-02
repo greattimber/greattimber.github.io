@@ -15,10 +15,10 @@ article{
     margin-top: 5%;
 }
 .about_us_image{
-    background-image: url(../img/about_us_1.jpg);
+
     width: 100%;
     height: 100%;
-    background-size: cover;
+    object-fit: cover;
     background-repeat: no-repeat;
     margin-right: 5%; 
     margin-top: 5%;
@@ -64,6 +64,7 @@ color: white;
 .about_us_image{
     width: 40vw;
     max-width: 40vw;
+
 }
 .indent{
     text-indent: 5ch;
@@ -197,6 +198,7 @@ color: white;
         display: flex;
         width: 100%;
     }
+    
   }
   @media (max-width: 410px) and (min-width: 360px) {
     .indent{
