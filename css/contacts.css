@@ -196,7 +196,10 @@ form>* {
     max-height: 100px;
     display: flex;
 }
-
+.message{
+    display: block;
+    height: 100%;
+}
 .send-content {
     display: flex;
     z-index: 2;
@@ -204,6 +207,7 @@ form>* {
 }
 
 .send::after {
+    max-height: 75px;
     content: '';
     position: absolute;
     width: 100%;
