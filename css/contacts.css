@@ -126,7 +126,7 @@ form>* {
     grid-row: 1/2;
     border: 1px solid #A19797;
     border-radius: 10px;
-    height: 10%;
+    max-height: 70px;
 }
 
 .inf_email1 {
@@ -134,7 +134,7 @@ form>* {
     grid-row: 2/3;
     border: 1px solid #A19797;
     border-radius: 10px;
-    height: 10%;
+    max-height: 70px;
 }
 
 .inf_email2 {
@@ -142,7 +142,7 @@ form>* {
     grid-row: 3/4;
     border: 1px solid #A19797;
     border-radius: 10px;
-    height: 10%;
+    max-height: 70px;
 }
 
 .inf_email3 {
@@ -150,7 +150,7 @@ form>* {
     grid-row: 4/5;
     border: 1px solid #A19797;
     border-radius: 10px;
-    height: 10%;
+    max-height: 70px;
 }
 
 .inf_email4 {
