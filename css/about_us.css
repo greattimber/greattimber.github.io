@@ -187,12 +187,7 @@ color: white;
     .about_us_image {
         width: 82vw;
     }
-    .none_mobile{
-        display: none;
-    }
-    .none_dekstop{
-        display: flex;
-    }
+
 
     .image_block1__about{
         display: flex;
@@ -266,3 +261,14 @@ color: white;
         margin-top: -58px;
     }
 }
+@media screen and (max-width: 700px) {
+    .none_mobile{
+        display: none;
+    }
+    .none_dekstop{
+        display: flex;
+    }
+    .about_us__container{
+        flex-direction: column;
+    }
+  }
