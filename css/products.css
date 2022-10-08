@@ -287,6 +287,15 @@ width: 100%;
   }
 
 }
+@media screen and (max-width: 700px) {
+
+  .wrapper{
+    width: 65%;
+    justify-content: center;
+    padding-right: 2%;
+    }
+    
+  }
 @media screen and (max-width: 460px) {
   .wrapper{
     width: 75%;
