@@ -103,7 +103,9 @@
     background-image: url(../img/contacts.jpg);
     background-size: cover;
 }
-
+.black_color{
+    color: black;
+  }
 form {
     width: 70vw;
     height: 40vh;
