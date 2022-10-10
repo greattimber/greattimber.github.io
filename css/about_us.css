@@ -213,7 +213,9 @@ color: white;
     .indent{
         font-size: 14px;
     }
-
+    #main-header{
+        margin-top: -1px;
+    }
     .descriprion__name{
         font-size: 12px;
     }
@@ -234,7 +236,10 @@ color: white;
         line-height: 2vh;
         
     }
-  }
+    #main-header{
+        margin-top: 5px;
+    }
+}
   @media (max-width: 360px) and (min-width: 310px) {
     .indent{
         font-size: 12px;
@@ -246,6 +251,9 @@ color: white;
     .description__about_us{
         line-height: 2vh;
         
+    }
+    #main-header{
+        margin-top: 1px;
     }
   }
   /*
