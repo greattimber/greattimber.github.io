@@ -162,7 +162,6 @@ display: flex;
 align-self: center;
 margin-bottom: 20px;
 
-max-width: 450px;
 }
 .image_product{
 width: 100%;
@@ -303,8 +302,8 @@ flex-direction: column;
 width: 100%;
 }
 .wrapper{
-  width: 50%;
-  justify-content: center;
+  width: 60%;
+ 
   padding-right: 2%;
   }
 
@@ -312,7 +311,7 @@ width: 100%;
 @media screen and (max-width: 700px) {
 
   .wrapper{
-    width: 55%;
+    width: 60%;
     justify-content: center;
     padding-right: 2%;
     }
