@@ -294,6 +294,9 @@ form>* {
     color: #bb5e5e;
     font-size: 25px;
 }
+.p_contacts{
+    text-align: justify;
+}
 footer{
     margin-top: 0%;
 }
