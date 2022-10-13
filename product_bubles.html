@@ -135,8 +135,15 @@
 
               <div class="large-5 column">
                   <div class="xzoom-thumbs">
-                    <a class="image_product" href="img/product_bubles_1.jpg"><img class="xzoom-gallery image_product" src="img/product_bubles_1.jpg"  xpreview="http://www.jqueryscript.net/demo/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom/images/gallery/preview/01_b_car.jpg" title="The description goes here"></a>
+                    <img id="myImg" src="img/product_bubles_1.jpg" >
+                   
+                    <div id="myModal" class="modal">
+                      <span class="close">X</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                    </div>
                   </div>
+                 
                 </div>        
               </div>
 
@@ -215,6 +222,45 @@
 
 </div>
 <script>
+  /*window.onload = function(){
+    document.getElementById('close').onclick = function(){
+        this.parentNode.parentNode.remove();
+        return false;
+    };
+};
+
+
+
+function closeIt() {
+   var element = document.getElementById("close");
+   element.classList.add("cross");
+   window.location = "img/product_bubles_1.jpg";
+}
+*/
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+    document.getElementById("img01").src = 'img/banner_final.jpg';
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
   var input = document.getElementById("question");
 input.addEventListener("keyup", function(event){
 event.preventDefault();
