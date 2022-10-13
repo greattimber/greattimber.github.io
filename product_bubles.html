@@ -238,6 +238,7 @@ function closeIt() {
 }
 */
 // Get the modal
+
 var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -249,7 +250,7 @@ img.onclick = function(){
     modalImg.src = this.src;
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
-    document.getElementById("img01").src = 'img/banner_final.jpg';
+    document.getElementById("img01").src = 'img/product_bubles_full.jpg';
 }
 
 // Get the <span> element that closes the modal
@@ -303,5 +304,7 @@ else alert("Введіть коректну назву");
 }
 });
 </script>
+<script src="js/wow.min.js"></script>
+     <script src="js/index.js"></script>
 </body>
 </html>
