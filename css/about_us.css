@@ -256,26 +256,7 @@ color: white;
         margin-top: 1px;
     }
   }
-  /*
-  @media screen and (max-width: 640px) {
-    .about_us__container > article{
-        flex-direction: column;
-    }
-    .but__description{
-        width: 100%;
-    }
-    .image_lenght{
-        padding: 0;
-        margin-top: 2%;
-        margin-left: 0%;
-    }
-    .about_us_image{
-        width: 100%;
-        height: 60vh;
-        
-    }
-}
-*/
+
 @media (max-width: 310px) and (min-width: 260px) {
 
     #main-header{
