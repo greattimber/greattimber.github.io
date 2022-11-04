@@ -2833,3 +2833,61 @@ header section span{
         
     }
 }
+@media screen and (max-width: 460px) {
+    .about_us__container{
+        flex-direction: column;
+    }
+    .head{
+        margin-top: 55px;
+    }
+    #main-header{
+        margin-top: -5px;
+    }
+    .indent{
+        font-size: 14px;
+    }
+
+    .descriprion__name{
+        font-size: 20px;
+    }
+    .description__about_us{
+        line-height: 3vh;
+        
+    }
+    .about_us_image {
+        width: 82vw;
+    }
+
+
+    .image_block1__about{
+        display: flex;
+        width: 100%;
+    }
+    
+  }
+  @media (max-width: 410px) and (min-width: 360px) {
+
+    #main-header{
+        margin-top: -1px;
+    }
+
+  }
+  @media (max-width: 310px) and (min-width: 260px) {
+
+    #main-header{
+        margin-top: 5px;
+    }
+}
+  @media (max-width: 360px) and (min-width: 310px) {
+    #main-header{
+        margin-top: 1px;
+    }
+  }
+
+@media (max-width: 310px) and (min-width: 260px) {
+
+    #main-header{
+        
+        margin-top: -58px;
+    }
+}
