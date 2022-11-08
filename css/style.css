@@ -11,6 +11,13 @@ h1,h2,h3,a,i,span,button,input, *{
 p{
     font-family: 'Roboto Condensed', sans-serif;
 }
+.container__products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+  }
+  
 .container__index{
     width: 100%;
     display: -webkit-box;
