@@ -119,19 +119,21 @@
             <img class="logo__img-simple" src="img/cont_two.png" alt="">
          </div>
          <div class="contacts__white-line"></div>
-         <form> <!-- id="contact" method="POST" -->
-           		<!-- Hidden Required Fields -->
-		<input type="hidden" name="project_name" value="Promtex">
-		<input type="hidden" name="admin_email" value="promtex.toys@gmail.com">
-		<input type="hidden" name="form_subject" value="footer form">
-		<!-- END Hidden Required Fields -->
+         <form method="post" action="/mail.php">
+            <!-- id="contact" method="POST" -->
+           	<!-- Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="Promtex">
+            <input type="hidden" name="form_subject" value="footer form">
+		    <!-- END Hidden Required Fields -->
             <input class="inf_email input" type="text" name="Name" placeholder="Name:" required>
-            <input class="inf_email1 input" type="text" name="Surname" placeholder="E-mail:" required>
-            <input class="inf_email2 input" type="text" name="E-mail" placeholder="Phone Number:">
-            <input class="inf_email3 input" type="text" name="Phone" placeholder="Subject:">
-            <input class="inf_email4 input" type="text" name="Phone" placeholder="Message:" required><br>
-            <div class="send"><button class="send-content">НАДІСЛАТИ</button></div>
-            
+            <input class="inf_email1 input" type="text" name="E-mail" placeholder="E-mail:" required>
+            <input class="inf_email2 input" type="text" name="Phone" placeholder="Phone Number:">
+            <input class="inf_email3 input" type="text" name="Subject" placeholder="Subject:">
+            <input class="inf_email4 input" type="text" name="Message" placeholder="Message:" required><br>
+            <input type="submit" class="send-content" value="НАДІСЛАТИ">
+            <!-- <div class="send">
+                <button class="send-content">НАДІСЛАТИ</button>
+            </div> -->
          </form>
          <div class="continue__form_box"></div>
 
