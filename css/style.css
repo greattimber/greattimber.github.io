@@ -67,7 +67,10 @@ p{
     background: #000;
     }
     
-    
+    .i_lang{
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+    }
     a{
     text-decoration:none;
     outline:none !important;
@@ -77,6 +80,7 @@ p{
         display: -webkit-box;
         display: -ms-flexbox;
         color: white;
+        display: flex;
     }
     a,button{
     -webkit-transition:0.5s;
@@ -134,7 +138,7 @@ p{
         margin-right: 10px;
     }
     .flag{
-        width: 1.3vw;
+        width: 1.8vw;
         margin-right: 1vw;
         margin-left: 0.5vw;
         color: white;
@@ -292,6 +296,13 @@ p{
     font-weight:600;
     
         }
+    .switch_lang{
+        display: flex;
+        background: none;
+        border: none;
+        color: white;
+        font-size:  100%;
+    }
     
     #navbar > a{
         margin: 15px;
@@ -2895,6 +2906,6 @@ header section span{
 
     #main-header{
         
-        margin-top: -58px;
+        margin-top: 0px;
     }
 }
