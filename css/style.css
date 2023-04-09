@@ -130,9 +130,7 @@ p{
         margin-right: 10px;
         margin-left: 10px;
     }
-    .phone_left{
-        margin-left: 14px !important;
-    }
+
     input{
         width: 40vw;
         display: -webkit-box;
